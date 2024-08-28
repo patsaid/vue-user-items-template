@@ -1,0 +1,56 @@
+// reset
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--gray-1);
+}
+
+input,
+textarea,
+select {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 8px 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-3);
+}
+
+.form-error {
+  color: var(--danger-1);
+  font-size: 14px;
+  font-weight: 500;
+}
